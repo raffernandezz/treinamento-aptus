@@ -8,21 +8,15 @@ export function BrandLogo({
   size?: number;
 }) {
   return (
-    <span
-      className={["inline-flex shrink-0 items-center justify-center overflow-hidden rounded-lg bg-black", className]
-        .filter(Boolean)
-        .join(" ")}
+    <Image
+      src="/brand/ftd-logo.png"
+      alt="FTD Educação"
+      width={size}
+      height={size}
+      className={["h-auto w-auto object-contain", className].filter(Boolean).join(" ")}
       style={{ width: size, height: size }}
-    >
-      <Image
-        src="/brand/ftd-logo.webp"
-        alt="FTD Educação"
-        width={size}
-        height={size}
-        className="h-full w-full object-contain p-[10%]"
-        priority
-      />
-    </span>
+      priority
+    />
   );
 }
 
