@@ -26,7 +26,6 @@ export function BrandLockup({ compact = false }: { compact?: boolean }) {
       <BrandLogo size={compact ? 48 : 60} />
       <div className="min-w-0">
         <p className="text-sm font-bold text-ink">FTD Educação</p>
-        <p className="text-xs text-muted">{compact ? "TREINAMENTO APTUS" : "Plataforma de treinamentos"}</p>
       </div>
     </div>
   );
