@@ -40,7 +40,7 @@ export default function ResultPage() {
       <div className="panel mt-6 overflow-hidden">
         <div className="relative flex items-center gap-3 overflow-hidden bg-ink px-6 py-5 text-white">
           <div className="pointer-events-none absolute -right-4 -top-6 h-28 w-28 bg-aptus/30 [clip-path:polygon(18%_0,100%_0,100%_78%,0_100%)]" />
-          <BrandLogo size={42} className="relative shrink-0 ring-1 ring-white/15" />
+          <BrandLogo size={56} className="relative shrink-0" />
           <div className="relative">
             <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-accent">Certificado de desempenho</p>
             <p className="mt-1 text-lg font-bold tracking-tight">TREINAMENTO APTUS · Missão Sem Glosa</p>

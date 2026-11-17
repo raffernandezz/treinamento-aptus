@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function BrandLogo({
   className,
-  size = 44,
+  size = 56,
 }: {
   className?: string;
   size?: number;
@@ -23,7 +23,7 @@ export function BrandLogo({
 export function BrandLockup({ compact = false }: { compact?: boolean }) {
   return (
     <div className="flex items-center gap-3">
-      <BrandLogo size={compact ? 40 : 48} />
+      <BrandLogo size={compact ? 48 : 60} />
       <div className="min-w-0">
         <p className="text-sm font-bold text-ink">FTD Educação</p>
         <p className="text-xs text-muted">{compact ? "TREINAMENTO APTUS" : "Plataforma de treinamentos"}</p>

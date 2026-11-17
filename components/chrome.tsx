@@ -37,7 +37,7 @@ export function MissionHeader() {
       <div className="mx-auto max-w-6xl px-5 py-3">
         <div className="flex items-center justify-between gap-4">
           <div className="flex min-w-0 items-center gap-3">
-            <BrandLogo size={34} className="shrink-0 ring-1 ring-line" />
+            <BrandLogo size={48} className="shrink-0" />
             <div className="min-w-0">
               <p className="truncate text-[11px] font-bold tracking-[0.08em] text-muted">TREINAMENTO APTUS</p>
               <p className="truncate text-[0.95rem] font-bold tracking-tight text-ink">
