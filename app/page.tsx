@@ -58,7 +58,7 @@ export default function CoverPage() {
                 Reembolsos, Adiantamentos e Prestação de Contas
               </p>
               <p className="mt-3 max-w-xl text-sm leading-relaxed text-white/70">
-                Curso completo: aprendizado, desafio prático, habilidades, conquistas e recompensas.
+               Treinamento completo: aprendizado, desafio prático, habilidades, conquistas e recompensas.
               </p>
               {hasProgress ? (
                 <div className="mt-5 flex flex-wrap gap-2.5 text-sm font-semibold">
